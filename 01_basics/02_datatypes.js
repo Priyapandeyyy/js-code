@@ -9,3 +9,23 @@ We aew using nodejs not browser
 */
 
 // Code readability should be high
+
+let name = "priya"
+let age = 20
+let isLoggedIn = false
+let state;
+
+// number => 2 ro the power of 53 (not sure) is range
+//bigint = if the number is very big
+// string = ""
+//boolean = true/false
+//null = standalone value
+// undefined = 
+//symbol = unique
+
+//object (detailed explanation later)
+
+console.log (typeof "priya");
+console.log (typeof age);
+console.log (typeof null); // THIS IS A OBJECT (OUTPUT = OBJECT)
+console.log (typeof undefined); //THIS IS JUST A TYPE (OUTPUT = UNDEFINED)
