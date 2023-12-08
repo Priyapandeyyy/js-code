@@ -1,4 +1,4 @@
-// let score = 10  .If 33 is like this then it is number
+// let score = 33  .If 33 is like this then it is number
 
 let score = "33" // and if 33 is like this "", then it is a string
 
