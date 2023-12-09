@@ -1,4 +1,4 @@
-// Variales are containers for storing data.
+// Variables are containers for storing data.
 // Javascript variables can be declared in 4 ways.
 
 /* 

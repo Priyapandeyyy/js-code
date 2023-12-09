@@ -3,11 +3,11 @@
 
 
 /*  PRIMITIVE DATATYPE
-7 types : String, Number, Boolean, null, undefined, Symbol, BigInt
+7 types : String, Number, Boolean, null, undefined, Symbol, BigInt ⭐
 */
 
 /*  REFERENCE (NON-PRIMITIVE)
-Array, Objects, Functions
+Array, Objects, Functions ⭐
 */
 
 // JavaScript is a dynamically typed language, which means that data types of variables are determined by the value they hold at runtime and can change throughout the program as we assign different values to them.
@@ -38,9 +38,9 @@ Array, Objects, Functions
 
 //DECLARATION OF FUNCTION
 
-const myFunction = function(){
-    console.log("Hello world");
-}
+// const myFunction = function(){
+//     console.log("Hello world");
+// }
 
 // Data ka type pata typeof se karte hai
 
@@ -54,12 +54,31 @@ const myFunction = function(){
 
 // ******************************************************************************//
 
-// STACK AND HEAP MEMORY
+// STACK AND HEAP MEMORY 
 
 // Stack (Primitive), Heap (Non- Primitive)
 
-// In stack whatever we have created we will get a copy of it.
-// and in heap we get reference of orginal value, means changes will be done in original.
+// In stack whatever we have created we will get a copy of it.  ⭐⭐
+// and in heap we get reference of orginal value, means changes will be done in original. ⭐⭐
 
 
 let myYoutubename = "Priyapandey@com"
+
+let anothername = myYoutubename
+
+anothername = "Priya Pandey"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email : "user123@gmail.com",
+    upi : "user@sbi",
+}
+
+// userTwo.email ==> This is how we access
+
+// SUMMARY
+
+// Jitne bhi primitive values hote hai wo stack mai jate hai. Or stack ke andar hamesha kisi bhi chiz ka copy milta hai
+// or heap mai reference

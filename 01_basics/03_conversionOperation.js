@@ -66,12 +66,12 @@ console.log(str3);
 
 
 console.log(+true);  //This format is not good
-console.log(true+);  //This will give error
+// console.log(true +);  //This will give error
 
 // let num1, num2, num3 NOT GOOD TO WRITE IN A COMAPNY
 
 // num1 = num2 = num3 = 2 + 2
 
-Let gameCounter = 100
+let gameCounter = 100
 gameCounter++;
 console.log(gameCounter);

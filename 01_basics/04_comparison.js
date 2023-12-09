@@ -14,7 +14,7 @@ But problem arises when two different dataypes are compares */
 //  TWO DATATYPES CAN NEVER BE COMPARED
 
 // console.log(null > 0) => false    . WE USUALLY 
-// console.log(null == 0); => false  . AVOID 
+// cons~ole.log(null == 0); => false  . AVOID 
 // console.log(null >= 0); => true   . THESE
 
 /************* THE REASON THAT AN EQUALITY CHECK == AND COMPARISON CHECK > < >= <= WORK DIFFERENTLY ********************
