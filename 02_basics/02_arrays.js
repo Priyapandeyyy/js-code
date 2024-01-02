@@ -17,7 +17,7 @@ console.log(marvel_heroes);
 // Spread = Array does not remain array it become individual element.
 
 
-const all_new_heros = [...marvel_heroes, ...dc_heroes]
+const all_new_heros = [...marvel_heroes, ...dc_heroes] // we spread the element
 
 const another_array = [1, 2, 3, [4, 5, 6], 7, [6,7, [4, 5]]]
 

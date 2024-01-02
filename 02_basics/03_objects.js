@@ -1,7 +1,7 @@
 // Object can be declared in two ways :
 // 1. Literal and 2. Constructor
 
-// Singleton = Koi bhi constructor se object banate hai to wo sngle hota (eklota hota hai)
+// Singleton = Koi bhi constructor se object banate hai to wo single hota (eklota hota hai)
 
 // Constructor se hamesha singleton banega Literal se kabhi nahi banega. ⭐⭐⭐
 // Object.create ==> Constructor method
