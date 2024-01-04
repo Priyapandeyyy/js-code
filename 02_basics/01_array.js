@@ -1,10 +1,10 @@
 // array = It is an object, which enables storing a collection of multiple items under a single variable.
 
-/* 1. Javascript arrays are resixable
+/* 1. Javascript arrays are resizable
 
 2. We cannot acces value ("") like this
- (Javascript arrays are not associated arrays) meaning upar wala hai
-
+ (Javascript arrays are not associated arrays) 
+ 
  3. Javascript arrays are zero-indexed.
 
  4. Javascript array-copy-operations create shallow copies.

@@ -3,9 +3,9 @@
 
 /* 
 1. Automatically
-2. Using var ⭐
+2. Using var 
 3. Using let ⭐
-4. Using const
+4. Using const ⭐
 */
 
 // Variables defined with const cannot be redeclared.
@@ -14,7 +14,7 @@
 
 // Block scope restricts the variable that is declared inside a specific block, from access by the outside of the block.
 
-// When we write something in const, the value will not change. BUT, the value changes when e write them in let and var.
+// When we write something in const, the value will not change. BUT, the value changes when we write them in let and var.
 
 /* IN JAVASCRIPT WE CAN DECLARE VARIABLE IN TWO WAYS. 
 1. Let

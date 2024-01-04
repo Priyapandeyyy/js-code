@@ -55,6 +55,6 @@ console.log(Jsuser.greeting());
 console.log(Jsuser.greetingTwo());
 
 // kisi bhi object ko refrence karne ke liye we will first convert string into baptism (``)
-// Now we cn write ny variable using dollar and curly bracet sign
+// Now we can write any variable using dollar and curly bracet sign
 // This = Jab bhi same object ko refernce kanra ho
 // This. = Jo bhi object hai uske andar ki property '.' lagane se mil jayegi.
