@@ -1,0 +1,114 @@
+<!-- 🎃🎃 DOM SELECTOR (1) 🎃🎃
+
+    1. document.getElementById('')
+    
+    ⭐⭐ We can check many things by typing documnet.getElementById(''). ⭐⭐
+    This '.' will tell us what we want to know.
+    
+    ⭐⭐ IF WE TYPE .id then we will get the name of the id. ⭐⭐
+    ⭐⭐ BUT IF WE TYPE .class then we will get undefined as result ⭐⭐
+    ⭐⭐ BUT IF WE TYPE .className then we will get classname as requested. ⭐⭐
+
+    That is because when we potray document then it does not understand class though it will show it as class in elements but in console it will understand className only.
+
+    ⭐⭐ AND IF WE TYPE .getAttribute then it will show that it is a function. ⭐⭐
+    And when we provide a function '()' then it will show error.
+
+    ⭐⭐⭐ THAT IS BECAUSE IN .getAttribute() they ask for specific function.⭐⭐⭐⭐
+
+    ⭐⭐IF WE TYPE .setAttribute then the problem will be that it will show undefined as result BUT when we go in element than the value we have given will already be set in element⭐⭐
+    ⭐⭐⭐⭐⭐THAT IS BECAUSE IT WILL ALWAYS OVERWRITE⭐⭐⭐⭐⭐⭐
+
+    👽  document.getElementById('').id
+    👽  document.getElementById('').className
+    👽  document.getElementById('').getAttribute('id')   
+    👽  document.getElementById('').getAttribute('class')
+    👽  document.getElementById('').getAttribute('class')
+    👽  document.getElementById('title').setAttribute('class', 'test')
+    👽  const title = document.getElementById('title')
+    👽  title.style.backgroundColor = 'green'
+    👽  title.style.padding = '15px'
+    👽  title.style.borderRadius = '15px'
+      
+ -->
+
+
+ <!-- 
+    🎃🎃 HOW TO ADD CONTENT 🎃🎃
+    
+    🍗🍗 FOR ADDING CONTENT WE HAVE 🍗🍗
+
+    🍗  title.textContent
+    🍗  title.innerHTML
+    🍗  title.innerText
+
+    🍗🍗🍗DIFFERENCE BETWEEN ALL THESE🍗🍗🍗🍗
+
+    🎃  textContent ==> All text will show.
+    🎃  innerHTML ==>  It will give whole HTML value (It will show HTML tags too.)
+    🎃  innerText ==> Only that text will appear which is visile. (But it can have more text whose visibility is hidden.)
+  -->
+
+<!-- ⭐⭐ QUERY SELECTOR ⭐⭐
+
+    🎃 document.querySelector
+    🎃 document.querySelector('h2')
+    🎃 document.querySelector('#title')
+    🎃 document.querySelector('.heading')
+    🎃 document.querySelector('input[type="password"]')
+    🎃 document.querySelector('ul')
+    🎃 const myul = document.querySelector('ul')
+    🎃 myul.querySelector('li')
+    🎃 const turnGreen = myul.querySelector('li')
+    🎃 turnGreen.style.backgroundColor = "green"
+    🎃 turnGreen.style.padding = "50px"
+    🎃 turnGreen.style.innerText = "five"
+
+ -->
+
+<!-- 🍷🍷 QUERY SELECTOR ALL 🍷🍷
+
+    🍇 document.querySelectorAll('li')
+    🍇 const tempList = document.querySelectorAll('li')
+    
+    🍷🍷🍷🍷🍷🍷 NODE LIST AND HTML COLLECTION ARE NOT PURE ARRAY 🍷🍷🍷🍷🍷🍷🍷
+
+    🍇 const myArr = [1,2,3,4]
+    🍇 tempList.style.color = 'green'      <> [This will show error as it is node list not array. It is similar to array.]
+    🍇 tempList[0].style.color = 'green'   <> Because we have to specify 
+    🍇 const myH1 = document.querySelectorAll('h1')
+    🍇 myH1.style.color = 'black'  <> Will show error again for the same reason.
+    🍇 myH1[0].style.color = 'black'
+    🍇 tempList.forEach(function (l) {} )
+    🍇 tempList.forEach(function (l) {l.style.backgroundColor = 'red' } )
+ -->
+
+  <!-- 🍜🍜 DOM SELECTOR 🍜🍜
+
+    2. document.getElementByClassName 
+
+    🍙 document.getElementsByClassName('list-item')  
+       (The problem with above is that we will not have any option to add loop in HTML collection.)
+    🍙 const tempClassList = document.getElementsByClassName('list-item')
+    🍙 tempClassList.forEach(function(li) { console.log(li) })
+       (It will show error : tempClassList.forEach is not a function)
+       (To remove that error we will have to convert HTML collection into array)
+       (🍜🍜 We will convert it from the method Array.from(variable ka naam))
+    🍙  Array.from(tempClassList)
+    🍙  const MyConvertedArray = Array.from(tempClassList)
+    🍙  MyConvertedArray.forEach(function(li) {li.style.color = 'Pink'} )
+ -->
+    
+    <!-- 🎏🎏 WHAT I USED IN CONSOLE 🎏🎏
+
+        
+        🪁 document.getElementById('firstHeading').innerHTML = <h1>PRIYA PANDEY</h1>
+        🪁 const myH2 = document.querySelectorAll('.mw-headline')
+        🪁 myH2.forEach(function (h) {h.style.color = 'Pink'})
+        🪁 myH2.forEach(function (h) {h.style.color = 'black'; h.style.backgroundColor = 'green'; h.style.padding = '15px'; h.innerText = 'Benz Vs Doru'})
+     -->
+
+
+
+
+
