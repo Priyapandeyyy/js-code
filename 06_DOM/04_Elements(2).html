@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to create a new element</title>
+</head>
+<body style="background-color: #414141; color: #fff;">
+
+
+
+</body>
+<script>
+    // This is how we create a div element in Script.
+    const div = document.createElement('div')
+    console.log(div);
+    // Now we will add property
+    div.className = "main"
+    div.id = Math.round(Math.random()) * 10 + 1
+    div.setAttribute("title", "generated title")
+    div.style.backgroundColor = "green"
+    div.style.padding = "12px"
+
+    // Now we will see how we will attach that div to the page.
+    // Developers usally perefer .setAttribute than innerText.
+    // That is because innerText take the reference first and then duplicate the value (It takes two round to complete)
+    // But In setAttribute it takes only one round which is to duplicate. So it reduces one step.
+    // SO WE PREFER to create our own Text (though createTextNode will also have two steps)
+    // Both are equally useful.
+
+    div.innerText = "Gandhi Money" // This is easy
+
+    // const addText = document.createTextNode("Priya Pandey")
+    // div.appendChild(addText)
+
+    document.body.appendChild(div)
+
+</script>
+</html>
